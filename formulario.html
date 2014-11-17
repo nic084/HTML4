@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<style>
+	body {background-color:lightgray}
+	h3   {color:blue}
+	p    {color:green}
+	</style>
+</head>
+<body>
+	<h3 style="text-align:center">Formulario de rexistro para alumnos de LMSX</h3>
+	<hr>
+	<table align="center">
+		<tr>
+			<td><form>Nome<input type="text" name="nome"></form></td>
+			<td><form>Apelidos<input type="text" name="apelidos"></form></td>
+			<td><form>DNI<input type="text" name="dni"></form></td>
+		</tr>
+		<tr>
+			<td><form>Dirección<input type="text" name="direccion"></form></td>
+			<td><form>CP<input type="text" name="cp"></form></td>
+			<td><form>Teléfono<input type="text" name="telefono"></form></td>
+		</tr>
+	</table>
+	<hr>
+	<table align="center">
+		<tr>
+			<td>
+				<p>Sexo</p>
+				<form>
+				<input type="radio" name="sexo" value="home">Home<br>
+				<input type="radio" name="sexo" value="muller">Muller
+				</form>
+			</td>
+			<td>
+				<p>Coñecementos de Html?</P>
+				<select>
+					<option value="nulo">Nulo</option>
+					<option value="iniciado">Iniciado</option>
+					<option value="avanzado">Avanzado</option>
+					<option value="sensei">Sensei</option>
+				</select>
+			</td>
+			<td>
+				<p>Asiste a clase?</p>
+				<form>
+				<fieldset>
+						<legend>Di a verdade langrán</legend>
+					<input type="checkbox" name="si" value="Bike">Si<br>
+					<input type="checkbox" name="non" value="Car">Non<br>
+					</fieldset>
+				</form>
+			</td>
+			<td>
+				<p>Suxerencias para o profesor:</p>
+				<textarea rows="10" cols="30">
+				</textarea>
+			</td>
+		</tr>
+	</table>
+	<hr>
+	<form style="text-align:center">
+	Password: <input type="password" name="pwd">
+	<input type="submit" value="Submit">
+	</form>
+	<form style="text-align:center">
+	Repite o Password: <input type="password" name="pwd">
+	<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+
